@@ -2,8 +2,19 @@
 
 [![Version](https://img.shields.io/visual-studio-marketplace/v/GodwinJoseph.advanced-json-studio)](https://marketplace.visualstudio.com/items?itemName=GodwinJoseph.advanced-json-studio)
 
+> ### 🎉 Launch Offer — 50% Off Pro for the First 500 Users
+>
+> To celebrate the Advanced JSOn Studio launch, the first **500 users** get **50% off** a Pro licence. Use the code below at checkout:
+>
+> Coupon code: **`XBKF1XMP`**
+>
+> 👉 **[Get Pro licence →](https://buy.polar.sh/polar_cl_Do1F4RavuKMBISTKelilfqp5MvGXhueNFoRjn2C5TY8)**
+>
+> _Limited to the first 500 — offer ends once the cap is reached._
 
-# Advanced JSON Studio v1.0.0
+---
+
+# Advanced JSON Studio v1.0.4
 
 **The Intelligent JSON Workspace for VS Code**
 
@@ -16,35 +27,7 @@
 <kbd>JWT-Decode</kbd> <kbd>JWT-Verify</kbd> <kbd>Diff</kbd> <kbd>HTTP-Client</kbd>
 <kbd>Dummy-JSON</kbd> <kbd>Code-Gen</kbd> <kbd>Session-Tabs</kbd> <kbd>Persistence</kbd>
 <kbd>Open-In-Editor</kbd> <kbd>Right-Click-Generate</kbd> <kbd>Save-File</kbd>
-
----
-
-> ## Important: Advanced JSON Studio uses a Freemium Model
->
-> Advanced JSON Studio is a professional-grade tool built and maintained by a solo developer. To keep it actively maintained, fast, and full of features, it uses a freemium model.
->
-> #### What is Free?
-> The essentials are always free:
-> - Core JSON parsing, pretty-printing, and validation
-> - Tree view navigation
-> - Basic format detection and repair
->
-> #### What is Pro?
-> Advanced and specialised features require a Pro licence:
-> - Format conversions (YAML, XML, TOML, Properties, CBOR, BSON, Flatten, Base64, CSV)
-> - Query engine (JSONPath / JMESPath)
-> - JWT decode and verify
-> - JSON Diff, HTTP Client, Dummy JSON Generator
-> - Schema inference and Schema Validator
-> - Local code generation (12 languages)
-> - Save output to file
->
-> #### A Generous Daily Allowance
-> Every Pro feature includes a **daily free usage limit** — you can try every feature every day without a licence. Access is gently limited once the daily threshold is met, not hard-blocked.
->
-> 👉 **[Get a Pro licence →](https://buy.polar.sh/polar_cl_Do1F4RavuKMBISTKelilfqp5MvGXhueNFoRjn2C5TY8)**
->
-> _— Godwin_
+<kbd>GraphQL-Format</kbd> <kbd>GraphQL-to-JSON</kbd>
 
 ---
 
@@ -116,6 +99,14 @@
 - Use the **📌 Pin** button to explicitly save the current input for the next session
 - On next open, your input is restored and automatically re-parsed
 
+### ◈ GraphQL Studio
+
+Sessions now support a dedicated **GraphQL mode** alongside JSON. When you create a tab, you can switch it to GraphQL mode to get a purpose-built workspace:
+
+- **Format** — parse and pretty-print any GraphQL SDL or query document (powered by the official `graphql` parser)
+- **Convert to JSON** — convert a GraphQL SDL / query to its JSON AST representation; output is sent directly to the main JSON parser
+- The GQL toolbar uses the GraphQL logo badge and a **Format** primary button (replaces Parse) for discoverability
+
 ### 🖱️ Right-Click: Generate Code in Folder
 
 - **Right-click any folder** in the VS Code Explorer → **"Generate Code from JSON"**
@@ -129,6 +120,35 @@
 
 - Select any JSON text in any editor file → right-click → **"Parse Selection in Advanced JSON Studio"**
 - The selected text is sent directly to the parser and focused in the sidebar
+
+---
+
+> ## Important: Advanced JSON Studio uses a Freemium Model
+>
+> Advanced JSON Studio is a professional-grade tool built and maintained by a solo developer. To keep it actively maintained, fast, and full of features, it uses a freemium model.
+>
+> #### What is Free?
+> The essentials are always free:
+> - Core JSON parsing, pretty-printing, and validation
+> - Tree view navigation
+> - Basic format detection and repair
+>
+> #### What is Pro?
+> Advanced and specialised features require a Pro licence:
+> - Format conversions (YAML, XML, TOML, Properties, CBOR, BSON, Flatten, Base64, CSV)
+> - Query engine (JSONPath / JMESPath)
+> - JWT decode and verify
+> - JSON Diff, HTTP Client, Dummy JSON Generator
+> - Schema inference and Schema Validator
+> - Local code generation (12 languages)
+> - Save output to file
+>
+> #### A Generous Daily Allowance
+> Every Pro feature includes a **daily free usage limit** — you can try every feature every day without a licence. Access is gently limited once the daily threshold is met, not hard-blocked.
+>
+> 👉 **[Get a Pro licence →](https://buy.polar.sh/polar_cl_Do1F4RavuKMBISTKelilfqp5MvGXhueNFoRjn2C5TY8)**
+>
+> _— Godwin_
 
 ---
 
@@ -174,14 +194,14 @@ Your licence key is stored exclusively in your **operating system's secure keych
 
 **From VS Code Marketplace:**
 
-1. Open VS Code
+1. Open VS Code Or Any Fork of it
 2. Press `Ctrl+Shift+X` to open Extensions
 3. Search for **"Advanced JSON Studio"**
 4. Click **Install**
 
 **From VSIX (manual):**
 
-1. Download the latest `.vsix` from the [Releases page](https://github.com/godwinjk/Json_Parser/releases/latest)
+1. Download the latest `.vsix` from the [Releases page](https://github.com/godwinjk/advanced_json_studio_vscode/releases/latest)
 2. Open VS Code → Extensions (`Ctrl+Shift+X`)
 3. Click `···` → **Install from VSIX…**
 4. Select the downloaded file
@@ -242,10 +262,44 @@ Once installed, click the **Advanced JSON Studio icon** in the Activity Bar (lef
 | Dummy JSON Generator | Limited | ✅ Unlimited |
 | Code Generation (12 languages) | Limited | ✅ Unlimited |
 | Save output to file | Limited | ✅ Unlimited |
+| GraphQL Format | ✅ Unlimited | ✅ Unlimited |
+| GraphQL Convert to JSON | Limited | ✅ Unlimited |
 
 ---
 
 ## 🆕 Changelog
+
+### v1.0.3
+
+- **GraphQL Studio** — sessions now support a dedicated GraphQL mode alongside JSON; switch any tab to GQL mode to get a purpose-built workspace
+- **GQL Format** — parse and pretty-print any GraphQL SDL or query document using the official `graphql` library
+- **GQL Convert to JSON** — convert a GraphQL SDL / query to its JSON AST representation; the output can be sent straight to the JSON parser
+- **Session tab scrolling** — the session tab bar now wraps in a scrollable container so many open tabs stay reachable without overflowing the sidebar
+- **Toolbar icon refresh** — toolbar action buttons now use compact Unicode symbols (✕ Clear, ⎘ Copy, ⇅ Sort, ⧉ Open) for a cleaner look at narrow widths
+
+### v1.0.2
+
+- **Floating Save** — the save action now floats over the output area and appears only for downloadable tabs (Pretty, Minify, YAML, XML, TOML, CBOR, BSON, CSV, Schema, Code Gen, etc.)
+- **Open in Editor — focused layout** — opening the panel in the editor column now hides the session tab bar and the Pin / Open / Settings buttons; you get a full-size view without the UI that only belongs in the sidebar
+- **Pin Input — visual toggle** — the 📌 Pin button now highlights when active, restores its pinned state on reopen, and clicking it again unpins
+- **Tooltips — smarter positioning** — custom tooltips are now anchored to the hovered element and clamp to the viewport, so they stay fully visible even in a narrow VS Code sidebar
+- **Clear & Session switch** — clearing the input or switching session tabs now reliably wipes every output panel; a session with unparsed input is now re-parsed on switch so stale data from another session can never leak in
+- **HTTP Client — risk warning** — sending to `localhost` / private IPs / `.local` / `.internal` hosts now shows an inline warning banner with Proceed / Cancel and a "don't warn again this session" option
+- **Security — ReDoS hardening** — JSON syntax highlighter rewritten as a linear O(n) tokenizer; the previous regex could backtrack on crafted input
+
+### v1.0.1
+
+- **Graph — Open in Editor** — graph now opens as a real VS Code editor tab with full pan, zoom, drag, arrowhead edges, and node tooltips
+- **Graph — arrowhead edges & tooltips** — edges now draw with directional arrowheads; hovering a node shows key, type, and value in a tooltip
+- **Settings — three-tab panel** — Settings is now split into General, Privacy, and License tabs
+- **Settings — indent size** — configurable indent size (2 / 4 / 8 spaces) in General tab, persisted across restarts
+- **Analytics** — anonymous usage analytics (opt-out toggle in Privacy tab); no JSON data ever sent
+- **HTTP Client** — "→ Use as Input" button sends response body to the main parser
+- **HTTP Client** — input bar no longer disappears after a response loads (layout fix)
+- **JWT** — invalid tokens now show "This is not a valid JWT token." instead of attempting to decode
+- **Session tabs** — active tab selection now correctly restored after VS Code restart
+- **Tooltips** — every toolbar button, dropdown item, and action button now shows a custom tooltip on hover
+- **Code Gen** — fully local via quicktype-core (no network call)
 
 ### v1.0.0
 
@@ -276,4 +330,4 @@ Every contribution — large or small — directly funds bug fixes, new features
 ## 📬 Feedback & Issues
 
 Found a bug or have a feature request?  
-👉 [Open an issue on GitHub](https://github.com/godwinjk/Json_Parser/issues)
+👉 [Open an issue on GitHub](https://github.com/godwinjk/advanced_json_studio_vscode/issues)
