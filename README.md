@@ -1,6 +1,15 @@
 # Advanced JSON Studio
 
 [![Version](https://img.shields.io/visual-studio-marketplace/v/GodwinJoseph.advanced-json-studio)](https://marketplace.visualstudio.com/items?itemName=GodwinJoseph.advanced-json-studio)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/GodwinJoseph.advanced-json-studio)](https://marketplace.visualstudio.com/items?itemName=GodwinJoseph.advanced-json-studio)
+[![Downloads](https://img.shields.io/visual-studio-marketplace/d/GodwinJoseph.advanced-json-studio)](https://marketplace.visualstudio.com/items?itemName=GodwinJoseph.advanced-json-studio)
+[![Rating](https://img.shields.io/visual-studio-marketplace/r/GodwinJoseph.advanced-json-studio)](https://marketplace.visualstudio.com/items?itemName=GodwinJoseph.advanced-json-studio)
+[![VS Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/GodwinJoseph.advanced-json-studio)](https://marketplace.visualstudio.com/items?itemName=GodwinJoseph.advanced-json-studio)
+[![VS Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/GodwinJoseph.advanced-json-studio)](https://marketplace.visualstudio.com/items?itemName=GodwinJoseph.advanced-json-studio)
+[![VS Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/GodwinJoseph.advanced-json-studio)](https://marketplace.visualstudio.com/items?itemName=GodwinJoseph.advanced-json-studio)
+[![OpenVSX Version](https://img.shields.io/open-vsx/v/GodwinJoseph/advanced-json-studio)](https://open-vsx.org/extension/GodwinJoseph/advanced-json-studio)
+[![OpenVSX Downloads](https://img.shields.io/open-vsx/dt/GodwinJoseph/advanced-json-studio)](https://open-vsx.org/extension/GodwinJoseph/advanced-json-studio)
+[![OpenVSX Rating](https://img.shields.io/open-vsx/rating/GodwinJoseph/advanced-json-studio)](https://open-vsx.org/extension/GodwinJoseph/advanced-json-studio)
 
 > ### 🎉 Launch Offer — 50% Off Pro for the First 500 Users
 >
