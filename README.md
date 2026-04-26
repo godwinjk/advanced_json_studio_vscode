@@ -14,6 +14,9 @@
 
 ---
 
+> 🧡 More of an IntelliJ fan? Check out the repository here → [IntelliJ Repo](https://github.com/godwinjk/Json_Parser)
+---
+
 # Advanced JSON Studio v1.0.4
 
 **The Intelligent JSON Workspace for VS Code**
